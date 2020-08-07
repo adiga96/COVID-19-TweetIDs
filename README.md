@@ -2,8 +2,6 @@
 
 The repository contains an ongoing collection of tweets IDs associated with the novel coronavirus COVID-19 (SARS-CoV-2), which commenced on January 28, 2020. We used the Twitter’s search API to gather historical Tweets from the preceding 7 days, leading to the first Tweets in our dataset dating back to January 21, 2020. We leveraged Twitter’s streaming API to follow specified accounts and also collect in real-time tweets that mention specific keywords. To comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), we are only publicly releasing the Tweet IDs of the collected Tweets. The data is released for non-commercial research use. 
 
-**DATA COLLECTION UPDATE: We have migrated our data collection to AWS, with upgraded computation and network specifications. This has enabled us to collect significantly more Tweets every hour, and the number of Tweet-IDs we will be uploading each week from release v2.0 onwards will be greater than the number of Tweet-IDs we have been able to collect in previous releases. Please see our notes section for further details.** 
-
 The associated paper to this repository can be found here: [Tracking Social Media Discourse About the COVID-19 Pandemic: Development of a Public Coronavirus Twitter Data Set](https://publichealth.jmir.org/2020/2/e19273/)
 
 
@@ -59,23 +57,22 @@ JMIR Public Health Surveill 2020;6(2):e19273
 DOI: 10.2196/19273 
 PMID: 32427106
 
-# Statistics Summary (v2.4) 
-Number of Tweets : **302,377,492**
+# Statistics Summary (v2.7) 
+Number of Tweets : **390,605,379**
 
 Language breakdown of top 10 most prevalent languages : 
-| Language        | ISO     | No. tweets       | % total Tweets     |
-|-------------    |-----    |------------      |----------------    |
-| English         | en      | 199,789,377      | 66.07%             |
-| Spanish         | es      | 38,477,687       | 12.73%             |
-| Portuguese      | pt      | 11,865,812       | 3.92%              |
-| Indonesian      | in      | 8,480,320        | 2.8%               |
-| Undefined       | und     | 7,354,640        | 2.43%              |
-| French          | fr      | 6,826,740        | 2.26%              |
-| Japanese        | ja      | 5,327,080        | 1.76%              |
-| Thai            | th      | 3,633,528        | 1.2%               |
-| Hindi           | hi      | 3,213,590        | 1.06%              |
-| Turkish         | tr      | 2,839,437        | 0.94%              |
-
+| Language        | ISO     | No. tweets     | % total Tweets     |
+|-------------    |-----    |------------    |----------------    |
+| English         | en      | 260,660,491    | 66.73%             |
+| Spanish         | es      | 49,795,484     | 12.75%             |
+| Portuguese      | pt      | 15,250,364     | 3.9%               |
+| Indonesian      | in      | 10,421,955     | 2.67%              |
+| Undefined       | und     | 9,790,726      | 2.51%              |
+| French          | fr      | 8,200,114      | 2.1%               |
+| Japanese        | ja      | 6,291,985      | 1.61%              |
+| Thai            | th      | 4,386,230      | 1.12%              |
+| Hindi           | hi      | 4,226,952      | 1.08%              |
+| Italian         | it      | 3,446,343      | 0.88%              |
 
 # Known Gaps
 | Date          | Time              |
@@ -96,5 +93,5 @@ If you have any further questions about this dataset please contact Dr. Emilio F
 
 # Related Papers
 - [What types of COVID-19 conspiracies are populated by Twitter bots?](https://firstmonday.org/ojs/index.php/fm/article/view/10633/9548)
-- [Political polarization drives online conversations about COVID ‐19 in the United States](https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.202)
+- [Political polarization drives online conversations about COVID‐19 in the United States](https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.202)
 
